@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerListView.setLayoutManager(new LinearLayoutManager(this));
         recycleviewAdapter = new RecycleviewAdapter(this);
         recyclerListView.setAdapter(recycleviewAdapter);
+
         // creating observales
         creatingObserable();
     }
